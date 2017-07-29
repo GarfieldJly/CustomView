@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:gravity="center_vertical"
+    android:layout_height="68dp"
+    android:layout_width="match_parent"
+    android:weightSum="4">
+
+    <TextView
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:id="@+id/user_unpaid"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="待付款"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:id="@+id/user_paid"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="待发货"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:id="@+id/user_unreceived"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="待收货"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:background="?android:attr/selectableItemBackgroundBorderless"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:gravity="center"
+        android:id="@+id/user_completed"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="已完成"
+        android:textSize="12sp"/>
+
+    <ImageView
+        android:id="@+id/qr_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
